@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<div id="myElement">
+  <p id="message">Welcome to my website!</p>
+</div>
+<button id="changeBtn" type="button">Change Message</button>
+<script>
+document.addEventListener("click", myFunction);
+function myFunction() {
+document.getElementById("message").innerHTML = "Hello there";
+}
+</script>
+
+</body>
+</html>
